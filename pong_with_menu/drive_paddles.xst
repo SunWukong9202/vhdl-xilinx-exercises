@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Santiago/pong_game/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Santiago/pong_game/xst"
+elaborate
+-ifn drive_paddles.prj
+-ifmt mixed

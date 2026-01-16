@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="751" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Santiago/vga_interface/vga_interace_top.vhd</arg>&quot; line <arg fmt="%d" index="2">212</arg>: Bad association for formal port &apos;<arg fmt="%s" index="3">o_col_count</arg>&apos; of component &apos;<arg fmt="%s" index="4">vga_controller</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="751" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Santiago/vga_interface/vga_interace_top.vhd</arg>&quot; line <arg fmt="%d" index="2">212</arg>: Bad association for formal port &apos;<arg fmt="%s" index="3">o_row_count</arg>&apos; of component &apos;<arg fmt="%s" index="4">vga_controller</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">w_updateB_oneTime</arg>&gt; in unit &lt;<arg fmt="%s" index="2">vga_interace_top</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">w_updateP1_oneTime</arg>&gt; in unit &lt;<arg fmt="%s" index="2">vga_interace_top</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">w_updateP2_oneTime</arg>&gt; in unit &lt;<arg fmt="%s" index="2">vga_interace_top</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">io_updateP1_oneTime</arg>&gt; in unit &lt;<arg fmt="%s" index="2">update_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">io_updateP2_oneTime</arg>&gt; in unit &lt;<arg fmt="%s" index="2">update_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">io_ball_x</arg>&gt; in unit &lt;<arg fmt="%s" index="2">update_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000000000000000000110010000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">io_ball_y</arg>&gt; in unit &lt;<arg fmt="%s" index="2">update_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000000000000000000100101100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">io_updateB_oneTime</arg>&gt; in unit &lt;<arg fmt="%s" index="2">update_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">r_ball_vel_x</arg>&gt; in unit &lt;<arg fmt="%s" index="2">update_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000000000000000000000000011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">r_ball_vel_y</arg>&gt; in unit &lt;<arg fmt="%s" index="2">update_module</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000000000000000000000000011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_update_ball</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_update_paddle1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_update_paddle2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_paddle1_x</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i_allow_com</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">w_point_of_collide</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">w_js1_UP</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">w_js1_DOWN</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">w_collision_y</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">w_collision_paddle_occur</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">w_collide_in_middle</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">r_ball_vel_y</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">r_ball_vel_x</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">w_updateP2_oneTime</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">w_updateP1_oneTime</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">w_updateB_oneTime</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">io_paddle1_y_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">update</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">31 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;io_paddle1_y_1&gt; &lt;io_paddle1_y_2&gt; &lt;io_paddle1_y_3&gt; &lt;io_paddle1_y_4&gt; &lt;io_paddle1_y_5&gt; &lt;io_paddle1_y_6&gt; &lt;io_paddle1_y_7&gt; &lt;io_paddle1_y_8&gt; &lt;io_paddle1_y_9&gt; &lt;io_paddle1_y_10&gt; &lt;io_paddle1_y_11&gt; &lt;io_paddle1_y_12&gt; &lt;io_paddle1_y_13&gt; &lt;io_paddle1_y_14&gt; &lt;io_paddle1_y_15&gt; &lt;io_paddle1_y_16&gt; &lt;io_paddle1_y_17&gt; &lt;io_paddle1_y_18&gt; &lt;io_paddle1_y_19&gt; &lt;io_paddle1_y_20&gt; &lt;io_paddle1_y_21&gt; &lt;io_paddle1_y_22&gt; &lt;io_paddle1_y_23&gt; &lt;io_paddle1_y_24&gt; &lt;io_paddle1_y_25&gt; &lt;io_paddle1_y_26&gt; &lt;io_paddle1_y_27&gt; &lt;io_paddle1_y_28&gt; &lt;io_paddle1_y_29&gt; &lt;io_paddle1_y_30&gt; &lt;io_paddle1_y_31&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">io_drawP1_oneTime</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">render</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">io_drawP2_oneTime</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">render</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">io_drawB_oneTime</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">render</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">io_paddle1_y_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">update</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">io_paddle1_y</arg>&lt;<arg fmt="%d" index="2">31</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">update_module</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">io_drawB_oneTime</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">draw_module</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">io_drawP2_oneTime</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">draw_module</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">io_drawP1_oneTime</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">draw_module</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">w_update_paddle1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_interace_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">w_update_paddle2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_interace_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">w_update_ball</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga_interace_top</arg>&gt;.
+</msg>
+
+</messages>
+

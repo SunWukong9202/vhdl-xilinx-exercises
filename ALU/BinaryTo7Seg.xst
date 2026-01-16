@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Santiago/ALU/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Santiago/ALU/xst"
+elaborate
+-ifn BinaryTo7Seg.prj
+-ifmt mixed

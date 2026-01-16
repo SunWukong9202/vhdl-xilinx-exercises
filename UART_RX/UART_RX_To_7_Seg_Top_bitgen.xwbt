@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Santiago\UART_RX\UART_RX_To_7_Seg_Top.ncd
+OUTFILE=C:\Users\Santiago\UART_RX\UART_RX_To_7_Seg_Top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Santiago\UART_RX
+LICENSE=WebPack
+USER_INFO=212566653_0_0_616

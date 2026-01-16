@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Santiago\pong_with_menu\pong_TOP.ncd
+OUTFILE=C:\Users\Santiago\pong_with_menu\pong_TOP.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Santiago\pong_with_menu
+LICENSE=WebPack
+USER_INFO=212566653_0_0_616

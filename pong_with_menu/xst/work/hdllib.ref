@@ -1,0 +1,20 @@
+EN render_menu NULL C:/Users/Santiago/pong_game_tiles_size_canvas/render_menu.vhd sub00/vhpl16 1669420402
+EN drive_paddles NULL "C:/Users/Santiago/pong_game - copia/drive_paddles.vhd" sub00/vhpl10 1669072699
+AR debounce_switch behavioral C:/Users/Santiago/pong_with_menu/Debounce_Switch.vhd sub00/vhpl15 1669675687
+EN draw_module NULL C:/Users/Santiago/pong_game/draw_module.vhd sub00/vhpl04 1669056311
+EN score_counter NULL C:/Users/Santiago/pong_with_menu/score_counter.vhd sub00/vhpl18 1669675690
+AR draw_module behavioral C:/Users/Santiago/pong_game/draw_module.vhd sub00/vhpl05 1669056312
+EN update_module NULL C:/Users/Santiago/pong_game/update_module.vhd sub00/vhpl02 1669056309
+AR drive_paddles behavioral "C:/Users/Santiago/pong_game - copia/drive_paddles.vhd" sub00/vhpl11 1669072700
+EN drive_ball NULL "C:/Users/Santiago/pong_game - copia/drive_ball.vhd" sub00/vhpl08 1669072697
+AR drive_ball behavioral "C:/Users/Santiago/pong_game - copia/drive_ball.vhd" sub00/vhpl09 1669072698
+AR score_counter behavioral C:/Users/Santiago/pong_with_menu/score_counter.vhd sub00/vhpl19 1669675691
+AR sound_for_pong behavioral C:/Users/Santiago/pong_with_menu/sound_for_pong.vhd sub00/vhpl13 1669675693
+AR vga_controller behavioral C:/Users/Santiago/pong_with_menu/vga_controller.vhd sub00/vhpl01 1669675689
+AR pong_top behavioral C:/Users/Santiago/pong_with_menu/pong_TOP.vhd sub00/vhpl07 1669675695
+AR update_module behavioral C:/Users/Santiago/pong_game/update_module.vhd sub00/vhpl03 1669056310
+EN vga_controller NULL C:/Users/Santiago/pong_with_menu/vga_controller.vhd sub00/vhpl00 1669675688
+AR render_menu behavioral C:/Users/Santiago/pong_game_tiles_size_canvas/render_menu.vhd sub00/vhpl17 1669420403
+EN sound_for_pong NULL C:/Users/Santiago/pong_with_menu/sound_for_pong.vhd sub00/vhpl12 1669675692
+EN debounce_switch NULL C:/Users/Santiago/pong_with_menu/Debounce_Switch.vhd sub00/vhpl14 1669675686
+EN pong_top NULL C:/Users/Santiago/pong_with_menu/pong_TOP.vhd sub00/vhpl06 1669675694

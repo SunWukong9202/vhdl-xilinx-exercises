@@ -1,0 +1,8 @@
+AR vga_interace_top behavioral C:/Users/Santiago/vga_interface/vga_interace_top.vhd sub00/vhpl03 1669064104
+EN draw_module NULL C:/Users/Santiago/vga_interface/draw_module.vhd sub00/vhpl04 1669064097
+AR draw_module behavioral C:/Users/Santiago/vga_interface/draw_module.vhd sub00/vhpl05 1669064098
+EN update_module NULL C:/Users/Santiago/vga_interface/update_module.vhd sub00/vhpl06 1669064099
+EN vga_interace_top NULL C:/Users/Santiago/vga_interface/vga_interace_top.vhd sub00/vhpl00 1669064103
+AR vga_controller behavioral C:/Users/Santiago/vga_interface/vga_controller.vhd sub00/vhpl02 1669064102
+AR update_module behavioral C:/Users/Santiago/vga_interface/update_module.vhd sub00/vhpl07 1669064100
+EN vga_controller NULL C:/Users/Santiago/vga_interface/vga_controller.vhd sub00/vhpl01 1669064101

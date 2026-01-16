@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="pong_game.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="draw_module.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="draw_module.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="draw_module.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="drive_ball.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="drive_ball.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="drive_ball.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="drive_paddles.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="drive_paddles.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="drive_paddles.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/pong_TOP_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/pong_TOP_synthesis.vhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="pong_TOP.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="pong_TOP.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="pong_TOP.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="pong_TOP.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="pong_TOP.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="pong_TOP.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="pong_TOP.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="pong_TOP.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="pong_TOP.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="pong_TOP.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pong_TOP.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="pong_TOP.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="pong_TOP.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="pong_TOP.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="pong_TOP.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="pong_TOP.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="pong_TOP.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="pong_TOP.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="pong_TOP.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="pong_TOP.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="pong_TOP_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="pong_TOP_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pong_TOP_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pong_TOP_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="pong_TOP_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="pong_TOP_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pong_TOP_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pong_TOP_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="pong_TOP_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="pong_TOP_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pong_TOP_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="pong_TOP_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="pong_TOP_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="pong_TOP_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pong_TOP_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pong_TOP_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="pong_top.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="pong_top.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="pong_top.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="score_counter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="score_counter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="score_counter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sound_for_pong.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="sound_for_pong.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="sound_for_pong.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="update_module.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="update_module.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="update_module.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vga_controller.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="vga_controller.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="vga_controller.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1669675681" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1669675681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669675681" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="406439004278532619" xil_pn:start_ts="1669675681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669675681" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7114277703741728143" xil_pn:start_ts="1669675681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669675681" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1669675681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669675681" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6695967403476302007" xil_pn:start_ts="1669675681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669675681" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1669675681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669675681" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1382355581774938363" xil_pn:start_ts="1669675681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669676301" xil_pn:in_ck="-8237861699068916652" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="3294441669618419502" xil_pn:start_ts="1669675681">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="pong_TOP.lso"/>
+      <outfile xil_pn:name="pong_TOP.ngc"/>
+      <outfile xil_pn:name="pong_TOP.ngr"/>
+      <outfile xil_pn:name="pong_TOP.prj"/>
+      <outfile xil_pn:name="pong_TOP.stx"/>
+      <outfile xil_pn:name="pong_TOP.syr"/>
+      <outfile xil_pn:name="pong_TOP.xst"/>
+      <outfile xil_pn:name="pong_TOP_vhdl.prj"/>
+      <outfile xil_pn:name="pong_TOP_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1669676301" xil_pn:in_ck="-4831593407314965168" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6027114440997083298" xil_pn:start_ts="1669676301">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669676307" xil_pn:in_ck="5111245191391037020" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-906350780899088066" xil_pn:start_ts="1669676301">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="pong_TOP.bld"/>
+      <outfile xil_pn:name="pong_TOP.ngd"/>
+      <outfile xil_pn:name="pong_TOP_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1669676316" xil_pn:in_ck="5111245191391037021" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1669676307">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="pong_TOP.pcf"/>
+      <outfile xil_pn:name="pong_TOP_map.map"/>
+      <outfile xil_pn:name="pong_TOP_map.mrp"/>
+      <outfile xil_pn:name="pong_TOP_map.ncd"/>
+      <outfile xil_pn:name="pong_TOP_map.ngm"/>
+      <outfile xil_pn:name="pong_TOP_map.xrpt"/>
+      <outfile xil_pn:name="pong_TOP_summary.xml"/>
+      <outfile xil_pn:name="pong_TOP_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1669676565" xil_pn:in_ck="6692977072985603062" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1669676316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="pong_TOP.ncd"/>
+      <outfile xil_pn:name="pong_TOP.pad"/>
+      <outfile xil_pn:name="pong_TOP.par"/>
+      <outfile xil_pn:name="pong_TOP.ptwx"/>
+      <outfile xil_pn:name="pong_TOP.unroutes"/>
+      <outfile xil_pn:name="pong_TOP.xpi"/>
+      <outfile xil_pn:name="pong_TOP_pad.csv"/>
+      <outfile xil_pn:name="pong_TOP_pad.txt"/>
+      <outfile xil_pn:name="pong_TOP_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1669676575" xil_pn:in_ck="5835975480697389193" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1669676565">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="pong_TOP.ut"/>
+      <outfile xil_pn:name="pong_top.bgn"/>
+      <outfile xil_pn:name="pong_top.bit"/>
+      <outfile xil_pn:name="pong_top.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1669676966" xil_pn:in_ck="5835975523314633395" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1669676965">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669676565" xil_pn:in_ck="5111245191391036889" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1669676560">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="pong_TOP.twr"/>
+      <outfile xil_pn:name="pong_TOP.twx"/>
+    </transform>
+    <transform xil_pn:end_ts="1669093343" xil_pn:in_ck="5835975480697389324" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-6301142761743440536" xil_pn:start_ts="1669093341">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,3 @@
+NET "i_clk" LOC = B8;
+NET "i_switch_1" LOC = B18;
+NET "o_led" LOC = J14;

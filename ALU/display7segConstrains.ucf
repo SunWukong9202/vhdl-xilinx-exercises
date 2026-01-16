@@ -1,0 +1,34 @@
+NET "o_Segment_A" LOC = L18;
+NET "o_Segment_B" LOC = F18;
+NET "o_Segment_C" LOC = D17;
+NET "o_Segment_D" LOC = D16;
+NET "o_Segment_E" LOC = G14;
+NET "o_Segment_F" LOC = J17;
+NET "o_Segment_G" LOC = H14;
+
+NET "i_clk" LOC = B8;
+		  
+NET "i_display1<3>" 	  	LOC = K17;
+NET "i_display1<2>" 	  	LOC = K18;
+NET "i_display1<1>" 	  	LOC = H18;
+NET "i_display1<0>" 	  	LOC = G18;
+
+NET "i_display2<3>" 	  	LOC = R17;
+NET "i_display2<2>" 	  	LOC = N17;
+NET "i_display2<1>" 	  	LOC = L13;
+NET "i_display2<0>" 	  	LOC = L14;
+
+NET "i_display3<3>" 	  	LOC = K17;
+NET "i_display3<2>" 	  	LOC = K18;
+NET "i_display3<1>" 	  	LOC = H18;
+NET "i_display3<0>" 	  	LOC = G18;
+
+NET "i_display4<3>" 	  	LOC = R17;
+NET "i_display4<2>" 	  	LOC = N17;
+NET "i_display4<1>" 	  	LOC = L13;
+NET "i_display4<0>" 	  	LOC = L14;
+
+NET "o_showDisplay<3>" LOC = F17;
+NET "o_showDisplay<2>" LOC = H17;
+NET "o_showDisplay<1>" LOC = C18;
+NET "o_showDisplay<0>" LOC = F15;

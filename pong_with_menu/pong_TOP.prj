@@ -1,0 +1,5 @@
+vhdl work "vga_controller.vhd"
+vhdl work "sound_for_pong.vhd"
+vhdl work "score_counter.vhd"
+vhdl work "Debounce_Switch.vhd"
+vhdl work "pong_TOP.vhd"

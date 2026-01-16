@@ -1,0 +1,8 @@
+AR binary_to_7segment behavioral C:/Users/Santiago/ALU/Binary_To_7Segment.vhd sub00/vhpl05 1667510179
+AR debounce_switch behavioral C:/Users/Santiago/ALU/debounce_switch.vhd sub00/vhpl03 1667441036
+AR alu_4bits behavioral C:/Users/Santiago/ALU/alu_4bits.vhd sub00/vhpl01 1667441038
+EN binary_to_7segment NULL C:/Users/Santiago/ALU/Binary_To_7Segment.vhd sub00/vhpl04 1667510178
+EN alu_4bits NULL C:/Users/Santiago/ALU/alu_4bits.vhd sub00/vhpl00 1667441037
+AR binaryto7seg behavioral C:/Users/Santiago/ALU/BinaryTo7Seg.vhd sub00/vhpl07 1667635539
+EN binaryto7seg NULL C:/Users/Santiago/ALU/BinaryTo7Seg.vhd sub00/vhpl06 1667635538
+EN debounce_switch NULL C:/Users/Santiago/ALU/debounce_switch.vhd sub00/vhpl02 1667441035

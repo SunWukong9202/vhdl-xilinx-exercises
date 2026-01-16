@@ -1,0 +1,6 @@
+AR binaryto7seg behavioral C:/Users/Santiago/ALU/BinaryTo7Seg.vhd sub00/vhpl03 1668213659
+EN binaryto7seg NULL C:/Users/Santiago/ALU/BinaryTo7Seg.vhd sub00/vhpl02 1668213658
+AR uart_rx_to_7_seg_top behavioral C:/Users/Santiago/ALU/UART_RX_To_7_Seg_Top.vhd sub00/vhpl05 1668213661
+EN uart_rx NULL C:/Users/Santiago/ALU/UART_RX.vhd sub00/vhpl00 1668213656
+EN uart_rx_to_7_seg_top NULL C:/Users/Santiago/ALU/UART_RX_To_7_Seg_Top.vhd sub00/vhpl04 1668213660
+AR uart_rx rtl C:/Users/Santiago/ALU/UART_RX.vhd sub00/vhpl01 1668213657

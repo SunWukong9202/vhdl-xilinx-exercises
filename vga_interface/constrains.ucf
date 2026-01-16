@@ -1,0 +1,23 @@
+NET "i_clk" LOC = B8;
+
+NET "o_R0" LOC = R9;
+NET "o_R1" LOC = T8;
+NET "o_R2" LOC = R8;
+
+NET "o_G0" LOC = N8;
+NET "o_G1" LOC = P8;
+NET "o_G2" LOC = P6;
+
+NET "o_B0" LOC = U5;
+NET "o_B1" LOC = U4;
+
+NET "o_HS" LOC = T4;
+NET "o_VS" LOC = U3;
+
+NET "i_joystick_p1<5>" LOC = R18;#--JB2 --MSB
+NET "i_joystick_p1<4>" LOC = M13;#--JB1
+NET "i_joystick_p1<3>" LOC = U18;#--JB10
+NET "i_joystick_p1<2>" LOC = T18;#--JB9
+NET "i_joystick_p1<1>" LOC = R16;#--JB8
+NET "i_joystick_p1<0>" LOC = P17;#--JB7 --LSB
+

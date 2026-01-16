@@ -1,0 +1,548 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: vga_interace_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vga_interace_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vga_interace_top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : vga_interace_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Santiago/vga_interface/draw_module.vhd" in Library work.
+Architecture behavioral of Entity draw_module is up to date.
+Compiling vhdl file "C:/Users/Santiago/vga_interface/update_module.vhd" in Library work.
+Architecture behavioral of Entity update_module is up to date.
+Compiling vhdl file "C:/Users/Santiago/vga_interface/vga_controller.vhd" in Library work.
+Architecture behavioral of Entity vga_controller is up to date.
+Compiling vhdl file "C:/Users/Santiago/vga_interface/vga_interace_top.vhd" in Library work.
+Architecture behavioral of Entity vga_interace_top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <vga_interace_top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <draw_module> in library <work> (architecture <Behavioral>) with generics.
+	B_RADIUS = 8
+	D_HEIGHT = 600
+	D_WIDTH = 800
+	P_HEIGHT = 100
+	P_WIDTH = 10
+	w_paddle1_x = 5
+	w_paddle2_x = 5
+
+Analyzing hierarchy for entity <update_module> in library <work> (architecture <Behavioral>) with generics.
+	B_RADIUS = 8
+	D_HEIGHT = 600
+	D_WIDTH = 800
+	P_HEIGHT = 100
+	P_WIDTH = 10
+
+Analyzing hierarchy for entity <vga_controller> in library <work> (architecture <Behavioral>) with generics.
+	H_ACTIVE_AREA = 800
+	H_END_BP = 1040
+	H_END_FP = 856
+	H_END_SPULSE = 976
+	V_ACTIVE_AREA = 600
+	V_END_BP = 666
+	V_END_FP = 637
+	V_END_SPULSE = 643
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <vga_interace_top> in library <work> (Architecture <behavioral>).
+WARNING:Xst:751 - "C:/Users/Santiago/vga_interface/vga_interace_top.vhd" line 212: Bad association for formal port 'o_col_count' of component 'vga_controller'.
+WARNING:Xst:751 - "C:/Users/Santiago/vga_interface/vga_interace_top.vhd" line 212: Bad association for formal port 'o_row_count' of component 'vga_controller'.
+INFO:Xst:2679 - Register <w_updateB_oneTime> in unit <vga_interace_top> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <w_updateP1_oneTime> in unit <vga_interace_top> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <w_updateP2_oneTime> in unit <vga_interace_top> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <vga_interace_top> analyzed. Unit <vga_interace_top> generated.
+
+Analyzing generic Entity <draw_module> in library <work> (Architecture <Behavioral>).
+	B_RADIUS = 8
+	D_HEIGHT = 600
+	D_WIDTH = 800
+	P_HEIGHT = 100
+	P_WIDTH = 10
+	w_paddle1_x = 5
+	w_paddle2_x = 5
+Entity <draw_module> analyzed. Unit <draw_module> generated.
+
+Analyzing generic Entity <update_module> in library <work> (Architecture <Behavioral>).
+	B_RADIUS = 8
+	D_HEIGHT = 600
+	D_WIDTH = 800
+	P_HEIGHT = 100
+	P_WIDTH = 10
+INFO:Xst:2679 - Register <io_updateP1_oneTime> in unit <update_module> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <io_updateP2_oneTime> in unit <update_module> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <io_ball_x> in unit <update_module> has a constant value of 00000000000000000000000110010000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <io_ball_y> in unit <update_module> has a constant value of 00000000000000000000000100101100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <io_updateB_oneTime> in unit <update_module> has a constant value of 1 during circuit operation. The register is replaced by logic.
+Entity <update_module> analyzed. Unit <update_module> generated.
+
+Analyzing generic Entity <vga_controller> in library <work> (Architecture <Behavioral>).
+	H_ACTIVE_AREA = 800
+	H_END_BP = 1040
+	H_END_FP = 856
+	H_END_SPULSE = 976
+	V_ACTIVE_AREA = 600
+	V_END_BP = 666
+	V_END_FP = 637
+	V_END_SPULSE = 643
+Entity <vga_controller> analyzed. Unit <vga_controller> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <r_ball_vel_x> in unit <update_module> has a constant value of 00000000000000000000000000000011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <r_ball_vel_y> in unit <update_module> has a constant value of 00000000000000000000000000000011 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <draw_module>.
+    Related source file is "C:/Users/Santiago/vga_interface/draw_module.vhd".
+    Found 1-bit register for signal <io_drawB_oneTime>.
+    Found 1-bit register for signal <o_draw_paddle1>.
+    Found 1-bit register for signal <o_draw_paddle2>.
+    Found 1-bit register for signal <o_draw_ball>.
+    Found 1-bit register for signal <io_drawP2_oneTime>.
+    Found 1-bit register for signal <io_drawP1_oneTime>.
+    Found 32-bit subtractor for signal <w_inBall$addsub0000> created at line 65.
+    Found 32-bit adder for signal <w_inBall$addsub0001> created at line 65.
+    Found 32-bit subtractor for signal <w_inBall$addsub0002> created at line 65.
+    Found 32-bit adder for signal <w_inBall$addsub0003> created at line 65.
+    Found 32-bit comparator greatequal for signal <w_inBall$cmp_ge0000> created at line 65.
+    Found 32-bit comparator greatequal for signal <w_inBall$cmp_ge0001> created at line 65.
+    Found 32-bit comparator lessequal for signal <w_inBall$cmp_le0000> created at line 65.
+    Found 32-bit comparator lessequal for signal <w_inBall$cmp_le0001> created at line 65.
+    Found 32-bit adder for signal <w_inPaddle1$addsub0000> created at line 85.
+    Found 32-bit comparator greatequal for signal <w_inPaddle1$cmp_ge0000> created at line 85.
+    Found 32-bit comparator greatequal for signal <w_inPaddle1$cmp_ge0001> created at line 85.
+    Found 32-bit comparator lessequal for signal <w_inPaddle1$cmp_le0000> created at line 85.
+    Found 32-bit comparator lessequal for signal <w_inPaddle1$cmp_le0001> created at line 85.
+    Found 32-bit adder for signal <w_inPaddle2$addsub0000> created at line 87.
+    Found 32-bit comparator greatequal for signal <w_inPaddle2$cmp_ge0000> created at line 87.
+    Found 32-bit comparator lessequal for signal <w_inPaddle2$cmp_le0000> created at line 87.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+	inferred   6 Adder/Subtractor(s).
+	inferred  10 Comparator(s).
+Unit <draw_module> synthesized.
+
+
+Synthesizing Unit <update_module>.
+    Related source file is "C:/Users/Santiago/vga_interface/update_module.vhd".
+WARNING:Xst:647 - Input <i_update_ball> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_update_paddle1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_update_paddle2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_paddle1_x> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <i_allow_com> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <w_point_of_collide> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w_js1_UP> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w_js1_DOWN> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w_collision_y> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w_collision_paddle_occur> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w_collide_in_middle> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <r_ball_vel_y> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <r_ball_vel_x> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Register <io_paddle2_y> equivalent to <io_paddle1_y> has been removed
+    Found 32-bit register for signal <io_paddle1_y>.
+    Found 32-bit comparator greater for signal <w_in_range$cmp_gt0000> created at line 78.
+    Found 32-bit comparator less for signal <w_in_range$cmp_lt0000> created at line 78.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <update_module> synthesized.
+
+
+Synthesizing Unit <vga_controller>.
+    Related source file is "C:/Users/Santiago/vga_interface/vga_controller.vhd".
+    Found 11-bit comparator less for signal <o_col_count$cmp_lt0000> created at line 86.
+    Found 11-bit comparator greater for signal <o_HS$cmp_gt0000> created at line 80.
+    Found 11-bit comparator less for signal <o_HS$cmp_lt0000> created at line 80.
+    Found 10-bit comparator less for signal <o_row_count$cmp_lt0000> created at line 87.
+    Found 10-bit comparator greater for signal <o_VS$cmp_gt0000> created at line 81.
+    Found 10-bit comparator less for signal <o_VS$cmp_lt0000> created at line 81.
+    Found 11-bit up counter for signal <w_HS_count>.
+    Found 10-bit up counter for signal <w_VS_count>.
+    Found 11-bit comparator less for signal <w_VS_count$cmp_lt0000> created at line 67.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   7 Comparator(s).
+Unit <vga_controller> synthesized.
+
+
+Synthesizing Unit <vga_interace_top>.
+    Related source file is "C:/Users/Santiago/vga_interface/vga_interace_top.vhd".
+WARNING:Xst:646 - Signal <w_updateP2_oneTime> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w_updateP1_oneTime> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <w_updateB_oneTime> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <w_update_ball>.
+    Found 1-bit register for signal <w_update_paddle1>.
+    Found 10-bit comparator less for signal <w_update_paddle1$cmp_lt0000> created at line 108.
+    Found 1-bit register for signal <w_update_paddle2>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <vga_interace_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 32-bit adder                                          : 4
+ 32-bit subtractor                                     : 2
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 10
+ 1-bit register                                        : 9
+ 32-bit register                                       : 1
+# Comparators                                          : 18
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 3
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 3
+ 32-bit comparator greatequal                          : 5
+ 32-bit comparator lessequal                           : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <io_paddle1_y_0> in Unit <update> is equivalent to the following 31 FFs/Latches, which will be removed : <io_paddle1_y_1> <io_paddle1_y_2> <io_paddle1_y_3> <io_paddle1_y_4> <io_paddle1_y_5> <io_paddle1_y_6> <io_paddle1_y_7> <io_paddle1_y_8> <io_paddle1_y_9> <io_paddle1_y_10> <io_paddle1_y_11> <io_paddle1_y_12> <io_paddle1_y_13> <io_paddle1_y_14> <io_paddle1_y_15> <io_paddle1_y_16> <io_paddle1_y_17> <io_paddle1_y_18> <io_paddle1_y_19> <io_paddle1_y_20> <io_paddle1_y_21> <io_paddle1_y_22> <io_paddle1_y_23> <io_paddle1_y_24> <io_paddle1_y_25> <io_paddle1_y_26> <io_paddle1_y_27> <io_paddle1_y_28> <io_paddle1_y_29> <io_paddle1_y_30> <io_paddle1_y_31> 
+WARNING:Xst:1426 - The value init of the FF/Latch io_drawP1_oneTime hinder the constant cleaning in the block render.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch io_drawP2_oneTime hinder the constant cleaning in the block render.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch io_drawB_oneTime hinder the constant cleaning in the block render.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1710 - FF/Latch <io_paddle1_y_0> (without init value) has a constant value of 0 in block <update>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <io_paddle1_y<31:0>> (without init value) have a constant value of 0 in block <update_module>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 32-bit adder                                          : 4
+ 32-bit subtractor                                     : 2
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+# Comparators                                          : 18
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 3
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 3
+ 32-bit comparator greatequal                          : 5
+ 32-bit comparator lessequal                           : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch io_drawB_oneTime hinder the constant cleaning in the block draw_module.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch io_drawP2_oneTime hinder the constant cleaning in the block draw_module.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch io_drawP1_oneTime hinder the constant cleaning in the block draw_module.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:2677 - Node <w_update_paddle1> of sequential type is unconnected in block <vga_interace_top>.
+WARNING:Xst:2677 - Node <w_update_paddle2> of sequential type is unconnected in block <vga_interace_top>.
+WARNING:Xst:2677 - Node <w_update_ball> of sequential type is unconnected in block <vga_interace_top>.
+
+Optimizing unit <vga_interace_top> ...
+
+Optimizing unit <draw_module> ...
+
+Optimizing unit <vga_controller> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vga_interace_top, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 27
+ Flip-Flops                                            : 27
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : vga_interace_top.ngr
+Top Level Output File Name         : vga_interace_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 117
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 19
+#      LUT2                        : 4
+#      LUT2_L                      : 1
+#      LUT3                        : 5
+#      LUT3_D                      : 2
+#      LUT4                        : 27
+#      LUT4_D                      : 7
+#      LUT4_L                      : 6
+#      MUXCY                       : 19
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 21
+# FlipFlops/Latches                : 27
+#      FDE                         : 3
+#      FDR                         : 14
+#      FDRE                        : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       42  out of   4656     0%  
+ Number of Slice Flip Flops:             27  out of   9312     0%  
+ Number of 4 input LUTs:                 73  out of   9312     0%  
+ Number of IOs:                          17
+ Number of bonded IOBs:                  11  out of    232     4%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+i_clk                              | BUFGP                  | 27    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.120ns (Maximum Frequency: 123.153MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 9.252ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'i_clk'
+  Clock period: 8.120ns (frequency: 123.153MHz)
+  Total number of paths / destination ports: 1020 / 58
+-------------------------------------------------------------------------
+Delay:               8.120ns (Levels of Logic = 5)
+  Source:            vga_controller/w_VS_count_7 (FF)
+  Destination:       render/o_draw_paddle2 (FF)
+  Source Clock:      i_clk rising
+  Destination Clock: i_clk rising
+
+  Data Path: vga_controller/w_VS_count_7 to render/o_draw_paddle2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             5   0.591   0.808  vga_controller/w_VS_count_7 (vga_controller/w_VS_count_7)
+     LUT2:I0->O            2   0.704   0.482  vga_controller/o_VD_active1_SW1 (N14)
+     LUT4_D:I2->O          2   0.704   0.482  vga_controller/o_row_count<3>1 (r_count_y<3>)
+     LUT4:I2->O            1   0.704   0.424  render/o_draw_paddle1_not0001243_SW0 (N27)
+     LUT4_D:I3->O          1   0.704   0.455  render/o_draw_paddle1_not0001243 (render/o_draw_paddle1_not0001243)
+     LUT4:I2->O            2   0.704   0.447  render/o_draw_paddle2_not00011 (render/o_draw_paddle2_not0001)
+     FDR:R                     0.911          render/o_draw_paddle2
+    ----------------------------------------
+    Total                      8.120ns (5.022ns logic, 3.098ns route)
+                                       (61.8% logic, 38.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'i_clk'
+  Total number of paths / destination ports: 160 / 10
+-------------------------------------------------------------------------
+Offset:              9.252ns (Levels of Logic = 5)
+  Source:            vga_controller/w_HS_count_6 (FF)
+  Destination:       o_B0 (PAD)
+  Source Clock:      i_clk rising
+
+  Data Path: vga_controller/w_HS_count_6 to o_B0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             10   0.591   0.961  vga_controller/w_HS_count_6 (vga_controller/w_HS_count_6)
+     LUT3_D:I1->O          2   0.704   0.451  vga_controller/o_HD_active1_SW0 (N10)
+     LUT4_D:I3->O          7   0.704   0.787  vga_controller/o_HD_active1 (w_HD_active)
+     LUT4:I1->O            1   0.704   0.000  o_B0_and00001 (o_B0_and0000)
+     MUXF5:I1->O           8   0.321   0.757  o_B0_and0000_f5 (o_R2_OBUF)
+     OBUF:I->O                 3.272          o_B0_OBUF (o_B0)
+    ----------------------------------------
+    Total                      9.252ns (6.296ns logic, 2.956ns route)
+                                       (68.1% logic, 31.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.71 secs
+ 
+--> 
+
+Total memory usage is 4513732 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   29 (   0 filtered)
+Number of infos    :   11 (   0 filtered)
+

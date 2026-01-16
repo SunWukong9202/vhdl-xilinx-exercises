@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Santiago\vga_interface\vga_interace_top.ncd
+OUTFILE=C:\Users\Santiago\vga_interface\vga_interace_top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Santiago\vga_interface
+LICENSE=WebPack
+USER_INFO=212566653_0_0_616

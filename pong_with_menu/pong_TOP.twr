@@ -1,0 +1,102 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml pong_TOP.twx pong_TOP.ncd -o pong_TOP.twr pong_TOP.pcf
+-ucf constrains.ucf
+
+Design file:              pong_TOP.ncd
+Physical constraint file: pong_TOP.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock i_clk
+----------------+------------+------------+------------------+--------+
+                |Max Setup to|Max Hold to |                  | Clock  |
+Source          | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+----------------+------------+------------+------------------+--------+
+i_difficulty<0> |    4.862(R)|    0.482(R)|i_clk_BUFGP       |   0.000|
+i_difficulty<1> |    4.755(R)|   -0.059(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p1<0>|    6.626(R)|    0.350(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p1<1>|    7.540(R)|   -0.381(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p1<2>|    7.246(R)|   -0.146(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p1<3>|    7.015(R)|    0.252(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p1<4>|    6.021(R)|    0.930(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p1<5>|    6.413(R)|    0.671(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p2<0>|    7.988(R)|   -2.695(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p2<1>|    7.931(R)|   -2.615(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p2<2>|    7.647(R)|   -2.301(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p2<3>|    7.249(R)|   -1.920(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p2<4>|    6.850(R)|   -1.739(R)|i_clk_BUFGP       |   0.000|
+i_joystick_p2<5>|    7.689(R)|   -2.032(R)|i_clk_BUFGP       |   0.000|
+i_select        |    3.341(R)|    0.708(R)|i_clk_BUFGP       |   0.000|
+----------------+------------+------------+------------------+--------+
+
+Clock i_clk to Pad
+----------------------+------------+------------------+--------+
+                      | clk (edge) |                  | Clock  |
+Destination           |   to PAD   |Internal Clock(s) | Phase  |
+----------------------+------------+------------------+--------+
+o_B0                  |   15.417(R)|i_clk_BUFGP       |   0.000|
+o_B1                  |   15.692(R)|i_clk_BUFGP       |   0.000|
+o_G0                  |   15.782(R)|i_clk_BUFGP       |   0.000|
+o_G1                  |   15.845(R)|i_clk_BUFGP       |   0.000|
+o_G2                  |   15.687(R)|i_clk_BUFGP       |   0.000|
+o_HS                  |   13.880(R)|i_clk_BUFGP       |   0.000|
+o_R0                  |   16.260(R)|i_clk_BUFGP       |   0.000|
+o_R1                  |   16.059(R)|i_clk_BUFGP       |   0.000|
+o_R2                  |   16.380(R)|i_clk_BUFGP       |   0.000|
+o_VS                  |   14.531(R)|i_clk_BUFGP       |   0.000|
+o_paddle_sound_collide|   12.422(R)|i_clk_BUFGP       |   0.000|
+----------------------+------------+------------------+--------+
+
+Clock to Setup on destination clock i_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+i_clk          |   12.791|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Nov 28 17:02:43 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4559 MB
+
+
+

@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "C:/Users/Santiago/ALU/alu_4bits.xst" -ofn "C:/Users/Santiago/ALU/alu_4bits.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/ALU/alu_4bits.xst" -ofn "C:/Users/Santiago/ALU/alu_4bits.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/ALU/alu_4bits.xst" -ofn "C:/Users/Santiago/ALU/alu_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc toggle_led.ucf -p xc3s500e-fg320-4 alu_4bits.ngc alu_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o alu_4bits_map.ncd alu_4bits.ngd alu_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 alu_4bits_map.ncd alu_4bits.ncd alu_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alu_4bits.twx alu_4bits.ncd -o alu_4bits.twr alu_4bits.pcf -ucf toggle_led.ucf 
+bitgen -intstyle ise -f alu_4bits.ut alu_4bits.ncd 
+xst -intstyle ise -ifn "C:/Users/Santiago/ALU/alu_4bits.xst" -ofn "C:/Users/Santiago/ALU/alu_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc toggle_led.ucf -p xc3s500e-fg320-4 alu_4bits.ngc alu_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o alu_4bits_map.ncd alu_4bits.ngd alu_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 alu_4bits_map.ncd alu_4bits.ncd alu_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alu_4bits.twx alu_4bits.ncd -o alu_4bits.twr alu_4bits.pcf -ucf toggle_led.ucf 
+bitgen -intstyle ise -f alu_4bits.ut alu_4bits.ncd 
+xst -intstyle ise -ifn "C:/Users/Santiago/ALU/alu_4bits.xst" -ofn "C:/Users/Santiago/ALU/alu_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc toggle_led.ucf -p xc3s500e-fg320-4 alu_4bits.ngc alu_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o alu_4bits_map.ncd alu_4bits.ngd alu_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 alu_4bits_map.ncd alu_4bits.ncd alu_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alu_4bits.twx alu_4bits.ncd -o alu_4bits.twr alu_4bits.pcf -ucf toggle_led.ucf 
+bitgen -intstyle ise -f alu_4bits.ut alu_4bits.ncd 
+xst -intstyle ise -ifn "C:/Users/Santiago/ALU/alu_4bits.xst" -ofn "C:/Users/Santiago/ALU/alu_4bits.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/ALU/alu_4bits.xst" -ofn "C:/Users/Santiago/ALU/alu_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc toggle_led.ucf -p xc3s500e-fg320-4 alu_4bits.ngc alu_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o alu_4bits_map.ncd alu_4bits.ngd alu_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 alu_4bits_map.ncd alu_4bits.ncd alu_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alu_4bits.twx alu_4bits.ncd -o alu_4bits.twr alu_4bits.pcf -ucf toggle_led.ucf 
+bitgen -intstyle ise -f alu_4bits.ut alu_4bits.ncd 

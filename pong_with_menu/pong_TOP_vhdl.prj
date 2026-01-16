@@ -1,0 +1,5 @@
+vhdl work "C:\Users\Santiago\pong_with_menu\vga_controller.vhd"
+vhdl work "C:\Users\Santiago\pong_with_menu\sound_for_pong.vhd"
+vhdl work "C:\Users\Santiago\pong_with_menu\score_counter.vhd"
+vhdl work "C:\Users\Santiago\pong_with_menu\Debounce_Switch.vhd"
+vhdl work "C:\Users\Santiago\pong_with_menu\pong_TOP.vhd"

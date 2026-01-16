@@ -1,0 +1,17 @@
+NET "o_Segment_A" LOC = L18;
+NET "o_Segment_B" LOC = F18;
+NET "o_Segment_C" LOC = D17;
+NET "o_Segment_D" LOC = D16;
+NET "o_Segment_E" LOC = G14;
+NET "o_Segment_F" LOC = J17;
+NET "o_Segment_G" LOC = H14;
+NET "o_Segment_P" LOC = C17;
+
+NET "i_Clk" LOC = B8;
+NET "i_UART_RX" LOC = U6;
+NET "o_bit_rx" LOC = J14;
+
+NET "o_displaySelected<3>" LOC = F17;
+NET "o_displaySelected<2>" LOC = H17;
+NET "o_displaySelected<1>" LOC = C18;
+NET "o_displaySelected<0>" LOC = F15;

@@ -1,0 +1,4 @@
+vhdl work "vga_controller.vhd"
+vhdl work "update_module.vhd"
+vhdl work "draw_module.vhd"
+vhdl work "vga_interace_top.vhd"

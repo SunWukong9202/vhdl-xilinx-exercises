@@ -1,0 +1,22 @@
+V3 13
+FL C:/Users/Santiago/ALU/alu_4bits.vhd 2022/11/02.20:03:53 P.20131013
+EN work/alu_4bits 1667441037 FL C:/Users/Santiago/ALU/alu_4bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/alu_4bits/Behavioral 1667441038 \
+      FL C:/Users/Santiago/ALU/alu_4bits.vhd EN work/alu_4bits 1667441037 \
+      CP work/debounce_switch
+FL C:/Users/Santiago/ALU/BinaryTo7Seg.vhd 2022/11/05.01:49:11 P.20131013
+EN work/BinaryTo7Seg 1667635538 FL C:/Users/Santiago/ALU/BinaryTo7Seg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/BinaryTo7Seg/Behavioral 1667635539 \
+      FL C:/Users/Santiago/ALU/BinaryTo7Seg.vhd EN work/BinaryTo7Seg 1667635538
+FL C:/Users/Santiago/ALU/Binary_To_7Segment.vhd 2022/11/03.15:16:17 P.20131013
+EN work/Binary_To_7Segment 1667510178 \
+      FL C:/Users/Santiago/ALU/Binary_To_7Segment.vhd PB ieee/std_logic_1164 1381692176
+AR work/Binary_To_7Segment/Behavioral 1667510179 \
+      FL C:/Users/Santiago/ALU/Binary_To_7Segment.vhd EN work/Binary_To_7Segment 1667510178
+FL C:/Users/Santiago/ALU/debounce_switch.vhd 2022/11/02.20:03:24 P.20131013
+EN work/debounce_switch 1667441035 FL C:/Users/Santiago/ALU/debounce_switch.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/debounce_switch/Behavioral 1667441036 \
+      FL C:/Users/Santiago/ALU/debounce_switch.vhd EN work/debounce_switch 1667441035

@@ -1,0 +1,35 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Nov 28 16:58:33 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "i_difficulty<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "i_difficulty<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "o_B0" LOCATE = SITE "U5" LEVEL 1;
+COMP "o_B1" LOCATE = SITE "U4" LEVEL 1;
+COMP "o_G0" LOCATE = SITE "N8" LEVEL 1;
+COMP "o_G1" LOCATE = SITE "P8" LEVEL 1;
+COMP "o_G2" LOCATE = SITE "P6" LEVEL 1;
+COMP "o_R0" LOCATE = SITE "R9" LEVEL 1;
+COMP "o_R1" LOCATE = SITE "T8" LEVEL 1;
+COMP "o_R2" LOCATE = SITE "R8" LEVEL 1;
+COMP "o_HS" LOCATE = SITE "T4" LEVEL 1;
+COMP "o_VS" LOCATE = SITE "U3" LEVEL 1;
+COMP "i_joystick_p1<0>" LOCATE = SITE "P17" LEVEL 1;
+COMP "i_joystick_p1<1>" LOCATE = SITE "R16" LEVEL 1;
+COMP "i_joystick_p1<2>" LOCATE = SITE "T18" LEVEL 1;
+COMP "i_joystick_p1<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "i_joystick_p2<0>" LOCATE = SITE "H15" LEVEL 1;
+COMP "i_joystick_p1<4>" LOCATE = SITE "M13" LEVEL 1;
+COMP "i_joystick_p2<1>" LOCATE = SITE "F14" LEVEL 1;
+COMP "i_joystick_p1<5>" LOCATE = SITE "R18" LEVEL 1;
+COMP "i_joystick_p2<2>" LOCATE = SITE "G16" LEVEL 1;
+COMP "i_joystick_p2<3>" LOCATE = SITE "J12" LEVEL 1;
+COMP "i_joystick_p2<4>" LOCATE = SITE "G15" LEVEL 1;
+COMP "i_joystick_p2<5>" LOCATE = SITE "J16" LEVEL 1;
+COMP "i_clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "o_paddle_sound_collide" LOCATE = SITE "L15" LEVEL 1;
+COMP "i_select" LOCATE = SITE "B18" LEVEL 1;
+NET "i_clk_BUFGP/IBUFG" BEL "i_clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

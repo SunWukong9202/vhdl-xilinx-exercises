@@ -1,0 +1,2 @@
+vhdl work "debounce_switch.vhd"
+vhdl work "alu_4bits.vhd"

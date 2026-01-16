@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.xst" -ofn "C:/Users/Santiago/UART_RX/UART_RX_To_7_Seg_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Santiago/ALU/UART_constrains.ucf -p xc3s500e-fg320-4 UART_RX_To_7_Seg_Top.ngc UART_RX_To_7_Seg_Top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o UART_RX_To_7_Seg_Top_map.ncd UART_RX_To_7_Seg_Top.ngd UART_RX_To_7_Seg_Top.pcf 
+par -w -intstyle ise -ol high -t 1 UART_RX_To_7_Seg_Top_map.ncd UART_RX_To_7_Seg_Top.ncd UART_RX_To_7_Seg_Top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml UART_RX_To_7_Seg_Top.twx UART_RX_To_7_Seg_Top.ncd -o UART_RX_To_7_Seg_Top.twr UART_RX_To_7_Seg_Top.pcf 
+bitgen -intstyle ise -f UART_RX_To_7_Seg_Top.ut UART_RX_To_7_Seg_Top.ncd 

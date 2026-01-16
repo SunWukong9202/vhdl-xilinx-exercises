@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Santiago/pong_game_border_mod/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Santiago/pong_game_border_mod/xst"
+elaborate
+-ifn sound_for_pong.prj
+-ifmt mixed
